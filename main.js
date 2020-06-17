@@ -1,4 +1,14 @@
-// Your code here!
+const colorCombinator = require('./color-combinator.js');
+const colorDeconstructor = require('./color-deconstructor.js');
+
+const color.messageNull = colorCombinator('Enter a color first.');
+const color.messageNull = colorDeconstructor('Enter a color first.');
+
+    return getInput();
+console.log();
+
+
+
 
 
 
