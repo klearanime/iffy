@@ -1,9 +1,19 @@
 const colorCombinator = require('./color-combinator.js');
 const colorDeconstructor = require('./color-deconstructor.js');
 
-const color.messageNull = colorCombinator('Enter a color first.');
-const color.messageNull = colorDeconstructor('Enter a color first.');
 
+const color1 = getInput(0);
+const color2 = getInput(1);
+
+if (color1 === undefined) {
+  console.log('Enter a color please.');
+} else if  (color2 === undefined) {
+  const color = colorCombinator('Enter a color first.');
+  const color = colorDeconstructor('Enter a color first.');
+} else {
+  const color = colorCombinator(color1, color2)
+  console.log(message)
+}
     return getInput();
 console.log();
 
